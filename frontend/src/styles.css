@@ -1,0 +1,284 @@
+
+
+/* 
+font-family: 'Anton', sans-serif;
+font-family: 'Bangers', cursive;
+font-family: 'Galada', cursive;
+font-family: 'Modak', cursive; */
+
+
+   body {
+    background-color: #F3EBF6;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.submit-button-col{
+  background:  #E040FB;
+  
+}
+
+.submit-button-col:hover {
+  background-color: wheat ;
+}
+.main {
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 450px;
+    margin: 7em auto;
+    border-radius: 1.5em;
+    margin-top: 50px;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
+
+.sign {
+    padding-top: 30px;
+    color: #8C55AA;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.un {
+width: 76%;
+color: rgb(38, 50, 56);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 1px;
+background: rgba(136, 126, 126, 0.04);
+padding: 10px 20px;
+border: none;
+border-radius: 20px;
+outline: none;
+box-sizing: border-box;
+border: 2px solid rgba(0, 0, 0, 0.02);
+margin-bottom: 50px;
+margin-left: 46px;
+text-align: center;
+margin-bottom: 27px;
+font-family: 'Ubuntu', sans-serif;
+}
+
+form.form1 {
+    padding-top: 10px;
+}
+
+.pass {
+        width: 76%;
+color: rgb(38, 50, 56);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 1px;
+background: rgba(136, 126, 126, 0.04);
+padding: 10px 20px;
+border: none;
+border-radius: 20px;
+outline: none;
+box-sizing: border-box;
+border: 2px solid rgba(0, 0, 0, 0.02);
+margin-bottom: 50px;
+margin-left: 46px;
+text-align: center;
+margin-bottom: 27px;
+font-family: 'Ubuntu', sans-serif;
+}
+
+
+.un:focus, .pass:focus {
+    border: 2px solid rgba(0, 0, 0, 0.18) !important;
+    
+}
+
+.submit {
+  cursor: pointer;
+    border-radius: 5em;
+    color: #fff;
+    background: linear-gradient(to right, #9C27B0, #E040FB);
+    border: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 35%;
+    font-size: 13px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+
+@media (max-width: 600px) {
+  .main {
+      border-radius: 0px;
+  }
+}
+
+
+/* navbar*/
+
+
+.navbar-col{
+  background: linear-gradient(to right, #9C27B0, #E040FB);
+}
+.brand-col{
+  font-weight: 900; 
+  font-size: 600;
+ 
+}
+/*  
+.footer {
+  position: fixed;
+  
+  bottom: 0;
+  width: 100%;
+  
+} */
+
+.footer{
+  color:white;
+}
+.footer-icon{
+
+  padding: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 8%;
+  border-radius: 50%;
+ 
+}
+.facebook-col{
+  background-color: blue;
+
+}
+.twitter-col{
+  background-color: #73BAF9;
+}
+.github-col{
+  background-color: #000;
+}
+.likdin-col{
+  background-color:#73BBF9;
+}
+/* my profile*/
+.bodyProfile {
+  font-family: sans-serif;
+  margin: 0 auto;
+  padding: 5px;
+  max-width: 800px;
+  min-width: 400px;
+  /* background-color: #dfe6e9; */
+  /* text-align: center; */
+}
+
+
+
+
+.card {
+  border-radius: 25px;
+  position: relative;
+  padding: 25px 15px;
+  /* background-color: #81ecec; */
+  margin: 40px 0;
+  height: auto;
+  /* box-shadow: 0 1px 3px #ccc; */
+  /* text-align: left; */
+  
+}
+
+
+.top {
+  border-radius: 25px 25px 0 0;
+  height: 140px;
+  width: 100%;
+  background-color: palevioletred;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  font-size: 2em;
+  color: rgb(124, 114, 114);
+}
+
+
+.name {
+  font-size: 2em;
+  color: rgb(124, 114, 114);
+  display: flex;
+  flex: 1;
+  margin: 13% 20px 0;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.card img {
+  margin: 30px 20px 0 0;
+}
+
+/* .image{
+  margin-left: 250px;
+  margin-right: 250px;
+} */
+.circle-img {
+  border-radius: 50%;
+  border: 7px solid #fff;
+  width: 160px;
+  height: 160px;
+  
+}
+
+.bottom {
+  margin-left:50px ;
+  margin-top: 170px;
+}
+
+.add-Button{
+  border-radius: 50%;
+  background-color:  palevioletred;
+ /* text-align: right; */
+ margin-left: 60%;
+
+}
+.icon-col{
+  color: #fff;
+}
+
+
+/* addprofile */
+.top-addProfile{
+  border-radius: 25px 25px 0 0;
+  height: 140px;
+  width: 100%;
+  background-color: gray;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  font-size: 2em;
+  color: rgb(124, 114, 114);
+}
+
+
+.card-addProfile {
+  border-radius: 25px;
+  position: relative;
+  padding: 25px 15px;
+  /* background-color: #81ecec; */
+  margin: 40px 0;
+  height: 600px;
+  /* box-shadow: 0 1px 3px #ccc; */
+  /* text-align: left; */
+  
+}
+
+/* Question Card */
+.card-image {
+  height: 350px;
+  width: 80%;
+}
+
+
+.scrolbar{
+  padding: 5% 0;
+  overflow: auto;
+  flex: auto;
+}
+
+
